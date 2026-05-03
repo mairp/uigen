@@ -1,2 +1,2 @@
 # uigen
-Claude Code uigen example
+Claude Code uigen example.
