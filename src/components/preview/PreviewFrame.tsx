@@ -151,10 +151,15 @@ export function PreviewFrame() {
   }
 
   return (
-    <iframe
-      ref={iframeRef}
-      className="w-full h-full border-0 bg-white"
-      title="Preview"
-    />
+    <div className="relative w-full h-full">
+      <iframe
+        ref={iframeRef}
+        className="w-full h-full border-0 bg-white"
+        title="Preview"
+      />
+      {/* Transparent overlay prevents the iframe from stealing mouse focus,
+          which would require a double-click to activate the Preview/Code toggle buttons. */}
+      <div className="absolute inset-0" aria-hidden="true" />
+    </div>
   );
 }
