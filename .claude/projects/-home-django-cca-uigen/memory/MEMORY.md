@@ -1,0 +1,2 @@
+- [Sparse comments](feedback_comments.md) — Only comment complex code, keep code clean and minimal
+- [Database schema](reference_db_schema.md) — prisma/schema.prisma is the source of truth for DB structure

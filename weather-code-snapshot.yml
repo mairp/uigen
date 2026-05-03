@@ -1,0 +1,168 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a user profile card with an avatar, name, role, bio, and social media links
+            - img [ref=e61]
+          - generic [ref=e77]:
+            - img [ref=e80]
+            - generic [ref=e85]:
+              - generic [ref=e88]: Creating App.jsx
+              - separator [ref=e89]
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: "Done! I've created a user profile card with:"
+                - list [ref=e92]:
+                  - listitem [ref=e93]: Avatar image with border and shadow
+                  - listitem [ref=e94]: Name and role display
+                  - listitem [ref=e95]: Bio section
+                  - listitem [ref=e96]: Social media links (GitHub, LinkedIn, Twitter, Email) with hover effects
+                  - listitem [ref=e97]: Follow button
+                  - listitem [ref=e98]: Gradient header background and centered card layout
+                - paragraph [ref=e99]: The card uses Tailwind CSS for styling and Lucide React icons for social media links.
+          - generic [ref=e391]:
+            - generic [ref=e394]: "Create a pricing table with three tiers: Basic, Pro, and Enterprise"
+            - img [ref=e397]
+          - generic [ref=e413]:
+            - img [ref=e416]
+            - generic [ref=e421]:
+              - generic [ref=e424]: Editing App.jsx
+              - separator [ref=e425]
+              - generic [ref=e426]:
+                - paragraph [ref=e427]: "Done! I've created a pricing table with three tiers featuring:"
+                - list [ref=e428]:
+                  - listitem [ref=e429]:
+                    - strong [ref=e430]: Basic
+                    - text: "- Entry-level plan with 5 features"
+                  - listitem [ref=e431]:
+                    - strong [ref=e432]: Pro
+                    - text: "- Highlighted as \"Most Popular\" with 7 features and scaled up"
+                  - listitem [ref=e433]:
+                    - strong [ref=e434]: Enterprise
+                    - text: "- Custom pricing with 8 features"
+                  - listitem [ref=e435]: Check icons for each feature
+                  - listitem [ref=e436]: Responsive grid layout
+                  - listitem [ref=e437]: Hover effects and smooth transitions
+                  - listitem [ref=e438]: Call-to-action buttons for each tier
+          - generic [ref=e1058]:
+            - generic [ref=e1061]: Create a weather dashboard widget showing current temperature, conditions, a 5-day forecast, and humidity/wind stats
+            - img [ref=e1064]
+          - generic [ref=e1080]:
+            - img [ref=e1083]
+            - generic [ref=e1088]:
+              - generic [ref=e1091]: Editing App.jsx
+              - separator [ref=e1092]
+              - generic [ref=e1093]:
+                - paragraph [ref=e1094]: "Done! I've created a weather dashboard with:"
+                - list [ref=e1095]:
+                  - listitem [ref=e1096]:
+                    - strong [ref=e1097]: Current weather card
+                    - text: with temperature, location, condition, and "feels like" temperature
+                  - listitem [ref=e1098]:
+                    - strong [ref=e1099]: Stats grid
+                    - text: showing humidity, wind speed, visibility, and pressure with icons
+                  - listitem [ref=e1100]:
+                    - strong [ref=e1101]: 5-day forecast
+                    - text: with daily high/low temps, conditions, and weather icons
+                  - listitem [ref=e1102]: Responsive grid layout
+                  - listitem [ref=e1103]: Gradient backgrounds and smooth hover effects
+                  - listitem [ref=e1104]: Weather icons from Lucide React
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [active] [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e1105]:
+        - generic [ref=e1113] [cursor=pointer]:
+          - img [ref=e1114]
+          - generic [ref=e1119]: App.jsx
+        - separator [ref=e1120]
+        - code [ref=e1125]:
+          - generic [ref=e1126]:
+            - generic [ref=e1128]:
+              - generic [ref=e1131]: "1"
+              - generic [ref=e1133]: "2"
+              - generic [ref=e1137]: "3"
+              - generic [ref=e1138]:
+                - generic [ref=e1139] [cursor=pointer]: 
+                - generic [ref=e1140]: "4"
+              - generic [ref=e1141]:
+                - generic [ref=e1142] [cursor=pointer]: 
+                - generic [ref=e1143]: "5"
+              - generic [ref=e1145]: "6"
+              - generic [ref=e1147]: "7"
+              - generic [ref=e1149]: "8"
+              - generic [ref=e1151]: "9"
+              - generic [ref=e1153]: "10"
+              - generic [ref=e1155]: "11"
+              - generic [ref=e1157]: "12"
+              - generic [ref=e1159]: "13"
+              - generic [ref=e1161]: "14"
+              - generic [ref=e1163]: "15"
+              - generic [ref=e1165]: "16"
+              - generic [ref=e1167]: "17"
+              - generic [ref=e1168]:
+                - generic [ref=e1169] [cursor=pointer]: 
+                - generic [ref=e1170]: "18"
+              - generic [ref=e1172]: "19"
+              - generic [ref=e1176]: "20"
+              - generic [ref=e1180]: "21"
+              - generic [ref=e1184]: "22"
+              - generic [ref=e1188]: "23"
+              - generic [ref=e1192]: "24"
+              - generic [ref=e1194]: "25"
+              - generic [ref=e1195]:
+                - generic [ref=e1196] [cursor=pointer]: 
+                - generic [ref=e1197]: "26"
+            - generic [ref=e1298]:
+              - generic [ref=e1300]: import React from 'react';
+              - generic [ref=e1302]: "import { Cloud, CloudRain, Sun,"
+              - generic [ref=e1304]: "Wind, Droplets, Eye, Gauge } from"
+              - generic [ref=e1306]: "'lucide-react';"
+              - generic [ref=e1309]: "export default function App() {"
+              - generic [ref=e1311]: "const currentWeather = {"
+              - generic [ref=e1313]: "temp: 72,"
+              - generic [ref=e1315]: "condition: 'Partly Cloudy',"
+              - generic [ref=e1317]: "location: 'San Francisco, CA',"
+              - generic [ref=e1319]: "high: 78,"
+              - generic [ref=e1321]: "low: 62,"
+              - generic [ref=e1323]: "humidity: 65,"
+              - generic [ref=e1325]: "windSpeed: 12,"
+              - generic [ref=e1327]: "visibility: 10,"
+              - generic [ref=e1329]: "pressure: 1013,"
+              - generic [ref=e1331]: "feelsLike: 70,"
+              - generic [ref=e1333]: "};"
+              - generic [ref=e1336]: const forecast = [
+              - generic [ref=e1338]: "{ day: 'Mon', high: 75, low:"
+              - generic [ref=e1340]: "62, condition: 'Sunny', icon:"
+              - generic [ref=e1342]: "'sun' },"
+              - generic [ref=e1344]: "{ day: 'Tue', high: 73, low:"
+              - generic [ref=e1346]: "61, condition: 'Cloudy', icon:"
+              - generic [ref=e1348]: "'cloud' },"
+              - generic [ref=e1350]: "{ day: 'Wed', high: 68, low:"
+              - generic [ref=e1352]: "58, condition: 'Rainy', icon:"
+              - generic [ref=e1354]: "'rain' },"
+              - generic [ref=e1356]: "{ day: 'Thu', high: 70, low:"
+              - generic [ref=e1358]: "59, condition: 'Cloudy', icon:"
+              - generic [ref=e1360]: "'cloud' },"
+              - generic [ref=e1362]: "{ day: 'Fri', high: 76, low:"
+              - generic [ref=e1364]: "63, condition: 'Sunny', icon:"
+              - generic [ref=e1366]: "'sun' },"
+              - generic [ref=e1368]: "];"
+              - generic [ref=e1371]: const getWeatherIcon = (iconType)
+              - generic [ref=e1373]: "=> {"
+            - textbox "Editor content" [ref=e1375]
+  - alert [ref=e48]
+  - generic [ref=e390]:
+    - alert
+    - alert

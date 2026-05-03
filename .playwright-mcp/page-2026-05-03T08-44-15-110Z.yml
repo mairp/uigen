@@ -1,0 +1,197 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a weather dashboard widget showing current temperature, conditions, a 5-day forecast, and humidity/wind stats
+            - img [ref=e61]
+          - generic [ref=e77]:
+            - img [ref=e80]
+            - generic [ref=e85]:
+              - generic [ref=e88]: Creating App.jsx
+              - separator [ref=e89]
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: "Done! I've created a weather dashboard with:"
+                - list [ref=e92]:
+                  - listitem [ref=e93]:
+                    - strong [ref=e94]: Current weather
+                    - text: section with large temperature display, location, and "feels like" info
+                  - listitem [ref=e95]:
+                    - strong [ref=e96]: 4 stat cards
+                    - text: showing humidity, wind speed, visibility, and pressure with icons
+                  - listitem [ref=e97]:
+                    - strong [ref=e98]: 5-day forecast
+                    - text: grid with daily highs/lows, conditions, and weather icons
+                  - listitem [ref=e99]:
+                    - strong [ref=e100]: Temperature unit toggle
+                    - text: (°C/°F)
+                  - listitem [ref=e101]:
+                    - strong [ref=e102]: Dark slate color scheme
+                    - text: with subtle borders and hover effects
+                  - listitem [ref=e103]:
+                    - strong [ref=e104]: Responsive design
+                    - text: that adapts from mobile to desktop
+                - paragraph [ref=e105]: The component uses mock data, but you can easily swap it with real API calls. Icons are from lucide-react.
+          - generic [ref=e107]:
+            - generic [ref=e110]: "Create a pricing table with three tiers: Basic, Pro, and Enterprise"
+            - img [ref=e113]
+          - generic [ref=e146]:
+            - img [ref=e149]
+            - generic [ref=e154]:
+              - generic [ref=e157]: Creating App.jsx
+              - separator [ref=e158]
+              - generic [ref=e161]: Editing App.jsx
+              - separator [ref=e162]
+              - generic [ref=e163]:
+                - paragraph [ref=e164]: "Done! Created a pricing table with:"
+                - list [ref=e165]:
+                  - listitem [ref=e166]:
+                    - strong [ref=e167]: Three tiers
+                    - text: ": Basic, Pro (highlighted as most popular), and Enterprise"
+                  - listitem [ref=e168]:
+                    - strong [ref=e169]: Monthly/Annual toggle
+                    - text: with savings calculation
+                  - listitem [ref=e170]:
+                    - strong [ref=e171]: Pro tier scaled up
+                    - text: with "Most Popular" badge
+                  - listitem [ref=e172]:
+                    - strong [ref=e173]: Feature lists
+                    - text: with included/not-included items
+                  - listitem [ref=e174]:
+                    - strong [ref=e175]: Gradient backgrounds
+                    - text: and emerald/teal color scheme
+                  - listitem [ref=e176]:
+                    - strong [ref=e177]: Smooth transitions
+                    - text: and hover effects
+                  - listitem [ref=e178]:
+                    - strong [ref=e179]: Responsive design
+                    - text: that works on all screen sizes
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e106]:
+        - generic [ref=f7e4]:
+          - generic [ref=f7e5]:
+            - heading "Simple, Transparent Pricing" [level=1] [ref=f7e6]
+            - paragraph [ref=f7e7]: Choose the perfect plan for your needs. Always flexible to scale as you grow.
+            - generic [ref=f7e8]:
+              - button "Monthly" [ref=f7e9] [cursor=pointer]
+              - button "Annual" [ref=f7e10] [cursor=pointer]
+          - generic [ref=f7e11]:
+            - generic [ref=f7e13]:
+              - heading "Basic" [level=3] [ref=f7e14]
+              - paragraph [ref=f7e15]: Perfect for getting started
+              - generic [ref=f7e17]:
+                - generic [ref=f7e18]: "29"
+                - generic [ref=f7e19]: /month
+              - button "Get Started" [ref=f7e20] [cursor=pointer]:
+                - text: Get Started
+                - img [ref=f7e21]
+              - generic [ref=f7e24]:
+                - generic [ref=f7e25]:
+                  - img [ref=f7e26]
+                  - generic [ref=f7e28]: Up to 10 projects
+                - generic [ref=f7e29]:
+                  - img [ref=f7e30]
+                  - generic [ref=f7e32]: 5GB storage
+                - generic [ref=f7e33]:
+                  - img [ref=f7e34]
+                  - generic [ref=f7e36]: Basic analytics
+                - generic [ref=f7e37]:
+                  - img [ref=f7e38]
+                  - generic [ref=f7e40]: Community support
+                - generic [ref=f7e41]:
+                  - img [ref=f7e42]
+                  - generic [ref=f7e44]: Standard integrations
+                - generic [ref=f7e45]:
+                  - img [ref=f7e46]
+                  - generic [ref=f7e48]: Monthly reports
+                - generic [ref=f7e52]: Advanced security
+                - generic [ref=f7e55]: Priority support
+                - generic [ref=f7e58]: Custom workflows
+            - generic [ref=f7e59]:
+              - generic [ref=f7e61]: Most Popular
+              - generic [ref=f7e62]:
+                - heading "Pro" [level=3] [ref=f7e63]
+                - paragraph [ref=f7e64]: For growing teams
+                - generic [ref=f7e66]:
+                  - generic [ref=f7e67]: "79"
+                  - generic [ref=f7e68]: /month
+                - button "Start Free Trial" [ref=f7e69] [cursor=pointer]:
+                  - text: Start Free Trial
+                  - img [ref=f7e70]
+                - generic [ref=f7e73]:
+                  - generic [ref=f7e74]:
+                    - img [ref=f7e75]
+                    - generic [ref=f7e77]: Unlimited projects
+                  - generic [ref=f7e78]:
+                    - img [ref=f7e79]
+                    - generic [ref=f7e81]: 500GB storage
+                  - generic [ref=f7e82]:
+                    - img [ref=f7e83]
+                    - generic [ref=f7e85]: Advanced analytics
+                  - generic [ref=f7e86]:
+                    - img [ref=f7e87]
+                    - generic [ref=f7e89]: Priority email support
+                  - generic [ref=f7e90]:
+                    - img [ref=f7e91]
+                    - generic [ref=f7e93]: Premium integrations
+                  - generic [ref=f7e94]:
+                    - img [ref=f7e95]
+                    - generic [ref=f7e97]: Weekly reports
+                  - generic [ref=f7e98]:
+                    - img [ref=f7e99]
+                    - generic [ref=f7e101]: Advanced security
+                  - generic [ref=f7e102]:
+                    - img [ref=f7e103]
+                    - generic [ref=f7e105]: Custom workflows
+                  - generic [ref=f7e109]: 24/7 phone support
+                  - generic [ref=f7e112]: Dedicated account manager
+            - generic [ref=f7e114]:
+              - heading "Enterprise" [level=3] [ref=f7e115]
+              - paragraph [ref=f7e116]: For large organizations
+              - generic [ref=f7e119]: Custom
+              - button "Contact Sales" [ref=f7e120] [cursor=pointer]:
+                - text: Contact Sales
+                - img [ref=f7e121]
+              - generic [ref=f7e124]:
+                - generic [ref=f7e125]:
+                  - img [ref=f7e126]
+                  - generic [ref=f7e128]: Unlimited everything
+                - generic [ref=f7e129]:
+                  - img [ref=f7e130]
+                  - generic [ref=f7e132]: Unlimited storage
+                - generic [ref=f7e133]:
+                  - img [ref=f7e134]
+                  - generic [ref=f7e136]: Custom analytics
+                - generic [ref=f7e137]:
+                  - img [ref=f7e138]
+                  - generic [ref=f7e140]: 24/7 phone & email support
+                - generic [ref=f7e141]:
+                  - img [ref=f7e142]
+                  - generic [ref=f7e144]: Custom integrations
+                - generic [ref=f7e145]:
+                  - img [ref=f7e146]
+                  - generic [ref=f7e148]: Real-time reports
+                - generic [ref=f7e149]:
+                  - img [ref=f7e150]
+                  - generic [ref=f7e152]: Enterprise security
+                - generic [ref=f7e153]:
+                  - img [ref=f7e154]
+                  - generic [ref=f7e156]: Dedicated account manager
+          - generic [ref=f7e157]:
+            - paragraph [ref=f7e158]: All plans include a 14-day free trial. No credit card required.
+            - paragraph [ref=f7e159]: Need a custom plan? Contact our sales team
+  - alert [ref=e48]
