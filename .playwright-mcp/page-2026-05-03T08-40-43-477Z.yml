@@ -1,0 +1,168 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a user profile card with an avatar, name, role, bio, and social media links
+            - img [ref=e61]
+          - generic [ref=e77]:
+            - img [ref=e80]
+            - generic [ref=e85]:
+              - generic [ref=e88]: Creating App.jsx
+              - separator [ref=e89]
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: "Done! I've created a user profile card with:"
+                - list [ref=e92]:
+                  - listitem [ref=e93]: Avatar image with border and shadow
+                  - listitem [ref=e94]: Name and role display
+                  - listitem [ref=e95]: Bio section
+                  - listitem [ref=e96]: Social media links (GitHub, LinkedIn, Twitter, Email) with hover effects
+                  - listitem [ref=e97]: Follow button
+                  - listitem [ref=e98]: Gradient header background and centered card layout
+                - paragraph [ref=e99]: The card uses Tailwind CSS for styling and Lucide React icons for social media links.
+          - generic [ref=e391]:
+            - generic [ref=e394]: "Create a pricing table with three tiers: Basic, Pro, and Enterprise"
+            - img [ref=e397]
+          - generic [ref=e413]:
+            - img [ref=e416]
+            - generic [ref=e421]:
+              - generic [ref=e424]: Editing App.jsx
+              - separator [ref=e425]
+              - generic [ref=e426]:
+                - paragraph [ref=e427]: "Done! I've created a pricing table with three tiers featuring:"
+                - list [ref=e428]:
+                  - listitem [ref=e429]:
+                    - strong [ref=e430]: Basic
+                    - text: "- Entry-level plan with 5 features"
+                  - listitem [ref=e431]:
+                    - strong [ref=e432]: Pro
+                    - text: "- Highlighted as \"Most Popular\" with 7 features and scaled up"
+                  - listitem [ref=e433]:
+                    - strong [ref=e434]: Enterprise
+                    - text: "- Custom pricing with 8 features"
+                  - listitem [ref=e435]: Check icons for each feature
+                  - listitem [ref=e436]: Responsive grid layout
+                  - listitem [ref=e437]: Hover effects and smooth transitions
+                  - listitem [ref=e438]: Call-to-action buttons for each tier
+          - generic [ref=e1058]:
+            - generic [ref=e1061]: Create a weather dashboard widget showing current temperature, conditions, a 5-day forecast, and humidity/wind stats
+            - img [ref=e1064]
+          - generic [ref=e1080]:
+            - img [ref=e1083]
+            - generic [ref=e1088]:
+              - generic [ref=e1091]: Editing App.jsx
+              - separator [ref=e1092]
+              - generic [ref=e1093]:
+                - paragraph [ref=e1094]: "Done! I've created a weather dashboard with:"
+                - list [ref=e1095]:
+                  - listitem [ref=e1096]:
+                    - strong [ref=e1097]: Current weather card
+                    - text: with temperature, location, condition, and "feels like" temperature
+                  - listitem [ref=e1098]:
+                    - strong [ref=e1099]: Stats grid
+                    - text: showing humidity, wind speed, visibility, and pressure with icons
+                  - listitem [ref=e1100]:
+                    - strong [ref=e1101]: 5-day forecast
+                    - text: with daily high/low temps, conditions, and weather icons
+                  - listitem [ref=e1102]: Responsive grid layout
+                  - listitem [ref=e1103]: Gradient backgrounds and smooth hover effects
+                  - listitem [ref=e1104]: Weather icons from Lucide React
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [active] [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e1377]:
+        - generic [ref=f5e4]:
+          - generic [ref=f5e5]:
+            - generic [ref=f5e6]:
+              - generic [ref=f5e7]:
+                - generic [ref=f5e8]:
+                  - heading "San Francisco, CA" [level=2] [ref=f5e9]
+                  - paragraph [ref=f5e10]: Today
+                - img [ref=f5e11]
+              - generic [ref=f5e13]:
+                - generic [ref=f5e14]:
+                  - generic [ref=f5e15]: 72°
+                  - paragraph [ref=f5e16]: Partly Cloudy
+                  - paragraph [ref=f5e17]: Feels like 70°
+                - generic [ref=f5e18]:
+                  - generic [ref=f5e19]:
+                    - text: "H:"
+                    - generic [ref=f5e20]: 78°
+                  - generic [ref=f5e21]:
+                    - text: "L:"
+                    - generic [ref=f5e22]: 62°
+            - generic [ref=f5e23]:
+              - generic [ref=f5e24]:
+                - generic [ref=f5e25]:
+                  - img [ref=f5e26]
+                  - generic [ref=f5e29]: Humidity
+                - paragraph [ref=f5e30]: 65%
+              - generic [ref=f5e31]:
+                - generic [ref=f5e32]:
+                  - img [ref=f5e33]
+                  - generic [ref=f5e37]: Wind
+                - paragraph [ref=f5e38]: 12 mph
+              - generic [ref=f5e39]:
+                - generic [ref=f5e40]:
+                  - img [ref=f5e41]
+                  - generic [ref=f5e44]: Visibility
+                - paragraph [ref=f5e45]: 10 mi
+              - generic [ref=f5e46]:
+                - generic [ref=f5e47]:
+                  - img [ref=f5e48]
+                  - generic [ref=f5e51]: Pressure
+                - paragraph [ref=f5e52]: 1013 mb
+          - generic [ref=f5e53]:
+            - heading "5-Day Forecast" [level=3] [ref=f5e54]
+            - generic [ref=f5e55]:
+              - generic [ref=f5e56]:
+                - heading "Mon" [level=4] [ref=f5e57]
+                - img [ref=f5e59]
+                - paragraph [ref=f5e65]: Sunny
+                - generic [ref=f5e66]:
+                  - generic [ref=f5e67]: 75°
+                  - generic [ref=f5e68]: 62°
+              - generic [ref=f5e69]:
+                - heading "Tue" [level=4] [ref=f5e70]
+                - img [ref=f5e72]
+                - paragraph [ref=f5e74]: Cloudy
+                - generic [ref=f5e75]:
+                  - generic [ref=f5e76]: 73°
+                  - generic [ref=f5e77]: 61°
+              - generic [ref=f5e78]:
+                - heading "Wed" [level=4] [ref=f5e79]
+                - img [ref=f5e81]
+                - paragraph [ref=f5e83]: Rainy
+                - generic [ref=f5e84]:
+                  - generic [ref=f5e85]: 68°
+                  - generic [ref=f5e86]: 58°
+              - generic [ref=f5e87]:
+                - heading "Thu" [level=4] [ref=f5e88]
+                - img [ref=f5e90]
+                - paragraph [ref=f5e92]: Cloudy
+                - generic [ref=f5e93]:
+                  - generic [ref=f5e94]: 70°
+                  - generic [ref=f5e95]: 59°
+              - generic [ref=f5e96]:
+                - heading "Fri" [level=4] [ref=f5e97]
+                - img [ref=f5e99]
+                - paragraph [ref=f5e105]: Sunny
+                - generic [ref=f5e106]:
+                  - generic [ref=f5e107]: 76°
+                  - generic [ref=f5e108]: 63°
+  - alert [ref=e48]
+  - generic [ref=e390]:
+    - alert
+    - alert

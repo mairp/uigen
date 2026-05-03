@@ -1,0 +1,121 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a user profile card with an avatar, name, role, bio, and social media links
+            - img [ref=e61]
+          - generic [ref=e77]:
+            - img [ref=e80]
+            - generic [ref=e85]:
+              - generic [ref=e88]: Creating App.jsx
+              - separator [ref=e89]
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: "Done! I've created a user profile card with:"
+                - list [ref=e92]:
+                  - listitem [ref=e93]: Avatar image with border and shadow
+                  - listitem [ref=e94]: Name and role display
+                  - listitem [ref=e95]: Bio section
+                  - listitem [ref=e96]: Social media links (GitHub, LinkedIn, Twitter, Email) with hover effects
+                  - listitem [ref=e97]: Follow button
+                  - listitem [ref=e98]: Gradient header background and centered card layout
+                - paragraph [ref=e99]: The card uses Tailwind CSS for styling and Lucide React icons for social media links.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [active] [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e101]:
+        - generic [ref=e109] [cursor=pointer]:
+          - img [ref=e110]
+          - generic [ref=e115]: App.jsx
+        - separator [ref=e116]
+        - code [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e124]:
+              - generic [ref=e127]: "1"
+              - generic [ref=e129]: "2"
+              - generic [ref=e132]: "3"
+              - generic [ref=e133]:
+                - generic [ref=e134] [cursor=pointer]: 
+                - generic [ref=e135]: "4"
+              - generic [ref=e136]:
+                - generic [ref=e137] [cursor=pointer]: 
+                - generic [ref=e138]: "5"
+              - generic [ref=e140]: "6"
+              - generic [ref=e142]: "7"
+              - generic [ref=e144]: "8"
+              - generic [ref=e149]: "9"
+              - generic [ref=e153]:
+                - generic [ref=e154] [cursor=pointer]: 
+                - generic [ref=e155]: "10"
+              - generic [ref=e157]: "11"
+              - generic [ref=e160]: "12"
+              - generic [ref=e163]: "13"
+              - generic [ref=e166]: "14"
+              - generic [ref=e169]: "15"
+              - generic [ref=e171]: "16"
+              - generic [ref=e173]: "17"
+              - generic [ref=e174]:
+                - generic [ref=e175] [cursor=pointer]: 
+                - generic [ref=e176]: "18"
+              - generic [ref=e177]:
+                - generic [ref=e178] [cursor=pointer]: 
+                - generic [ref=e179]: "19"
+              - generic [ref=e184]:
+                - generic [ref=e185] [cursor=pointer]: 
+                - generic [ref=e186]: "20"
+              - generic [ref=e191]: "21"
+            - generic [ref=e311]:
+              - generic [ref=e313]: import React from 'react';
+              - generic [ref=e315]: "import { Github, Linkedin, Twitter,"
+              - generic [ref=e317]: "Mail } from 'lucide-react';"
+              - generic [ref=e320]: "export default function App() {"
+              - generic [ref=e322]: "const user = {"
+              - generic [ref=e324]: "name: 'Sarah Anderson',"
+              - generic [ref=e326]: "role: 'Product Designer',"
+              - generic [ref=e328]: "bio: 'Passionate about creating"
+              - generic [ref=e330]: beautiful and intuitive user
+              - generic [ref=e332]: experiences. Coffee enthusiast
+              - generic [ref=e334]: and design advocate.',
+              - generic [ref=e336]: "avatar: 'https://images."
+              - generic [ref=e338]: unsplash.com/
+              - generic [ref=e340]: photo-1494790108377-be9c29b29330
+              - generic [ref=e342]: "?w=400&h=400&fit=crop',"
+              - generic [ref=e344]: "social: ["
+              - generic [ref=e346]: "{ icon: Github, url: '#',"
+              - generic [ref=e348]: "label: 'GitHub' },"
+              - generic [ref=e350]: "{ icon: Linkedin, url: '#',"
+              - generic [ref=e352]: "label: 'LinkedIn' },"
+              - generic [ref=e354]: "{ icon: Twitter, url: '#',"
+              - generic [ref=e356]: "label: 'Twitter' },"
+              - generic [ref=e358]: "{ icon: Mail, url: '#',"
+              - generic [ref=e360]: "label: 'Email' },"
+              - generic [ref=e362]: "],"
+              - generic [ref=e364]: "};"
+              - generic [ref=e367]: return (
+              - generic [ref=e369]: <div className="min-h-screen
+              - generic [ref=e371]: bg-gradient-to-br
+              - generic [ref=e373]: from-slate-900 to-slate-800
+              - generic [ref=e375]: flex items-center
+              - generic [ref=e377]: justify-center p-4">
+              - generic [ref=e379]: <div className="bg-white
+              - generic [ref=e381]: rounded-2xl shadow-2xl
+              - generic [ref=e383]: overflow-hidden max-w-sm
+              - generic [ref=e385]: w-full">
+              - generic [ref=e387]: "{/* Header Background */}"
+            - textbox "Editor content" [ref=e389]
+  - alert [ref=e48]
+  - generic [ref=e390]:
+    - alert
+    - alert

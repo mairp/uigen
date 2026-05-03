@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a weather dashboard widget showing current temperature, conditions, a 5-day forecast, and humidity/wind stats
+            - img [ref=e61]
+          - generic [ref=e77]:
+            - img [ref=e80]
+            - generic [ref=e85]:
+              - generic [ref=e88]: Creating App.jsx
+              - separator [ref=e89]
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: "Done! I've created a weather dashboard with:"
+                - list [ref=e92]:
+                  - listitem [ref=e93]:
+                    - strong [ref=e94]: Current weather
+                    - text: section with large temperature display, location, and "feels like" info
+                  - listitem [ref=e95]:
+                    - strong [ref=e96]: 4 stat cards
+                    - text: showing humidity, wind speed, visibility, and pressure with icons
+                  - listitem [ref=e97]:
+                    - strong [ref=e98]: 5-day forecast
+                    - text: grid with daily highs/lows, conditions, and weather icons
+                  - listitem [ref=e99]:
+                    - strong [ref=e100]: Temperature unit toggle
+                    - text: (°C/°F)
+                  - listitem [ref=e101]:
+                    - strong [ref=e102]: Dark slate color scheme
+                    - text: with subtle borders and hover effects
+                  - listitem [ref=e103]:
+                    - strong [ref=e104]: Responsive design
+                    - text: that adapts from mobile to desktop
+                - paragraph [ref=e105]: The component uses mock data, but you can easily swap it with real API calls. Icons are from lucide-react.
+          - generic [ref=e107]:
+            - generic [ref=e110]: "Create a pricing table with three tiers: Basic, Pro, and Enterprise"
+            - img [ref=e113]
+          - generic [ref=e129]:
+            - img [ref=e132]
+            - generic [ref=e137]:
+              - generic [ref=e140]: Creating App.jsx
+              - separator [ref=e141]
+              - generic [ref=e142]:
+                - img [ref=e143]
+                - generic [ref=e145]: Generating...
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e106]:
+        - generic [ref=f7e4]:
+          - generic [ref=f7e5]:
+            - generic [ref=f7e6]:
+              - heading "Weather" [level=1] [ref=f7e7]
+              - paragraph [ref=f7e8]: Real-time forecast
+            - button "°C" [ref=f7e9] [cursor=pointer]
+          - generic [ref=f7e11]:
+            - generic [ref=f7e13]:
+              - paragraph [ref=f7e14]: San Francisco, CA
+              - generic [ref=f7e15]:
+                - generic [ref=f7e16]: 22°
+                - generic [ref=f7e17]: C
+              - paragraph [ref=f7e18]: Partly Cloudy
+              - paragraph [ref=f7e19]: Feels like 20°C
+            - generic [ref=f7e20]:
+              - generic [ref=f7e21]:
+                - generic [ref=f7e22]:
+                  - img [ref=f7e23]
+                  - generic [ref=f7e26]: Humidity
+                - paragraph [ref=f7e27]: 65%
+              - generic [ref=f7e28]:
+                - generic [ref=f7e29]:
+                  - img [ref=f7e30]
+                  - generic [ref=f7e34]: Wind
+                - paragraph [ref=f7e35]: 12 km/h
+              - generic [ref=f7e36]:
+                - generic [ref=f7e37]:
+                  - img [ref=f7e38]
+                  - generic [ref=f7e41]: Visibility
+                - paragraph [ref=f7e42]: 10 km
+              - generic [ref=f7e43]:
+                - generic [ref=f7e44]:
+                  - img [ref=f7e45]
+                  - generic [ref=f7e48]: Pressure
+                - paragraph [ref=f7e49]: 1013 mb
+          - generic [ref=f7e50]:
+            - heading "5-Day Forecast" [level=2] [ref=f7e51]
+            - generic [ref=f7e52]:
+              - generic [ref=f7e53] [cursor=pointer]:
+                - paragraph [ref=f7e54]: Mon
+                - img [ref=f7e56]
+                - paragraph [ref=f7e62]: Sunny
+                - generic [ref=f7e63]:
+                  - generic [ref=f7e64]:
+                    - paragraph [ref=f7e65]: High
+                    - paragraph [ref=f7e66]: 24°
+                  - generic [ref=f7e67]:
+                    - paragraph [ref=f7e68]: Low
+                    - paragraph [ref=f7e69]: 18°
+              - generic [ref=f7e70] [cursor=pointer]:
+                - paragraph [ref=f7e71]: Tue
+                - img [ref=f7e73]
+                - paragraph [ref=f7e75]: Cloudy
+                - generic [ref=f7e76]:
+                  - generic [ref=f7e77]:
+                    - paragraph [ref=f7e78]: High
+                    - paragraph [ref=f7e79]: 22°
+                  - generic [ref=f7e80]:
+                    - paragraph [ref=f7e81]: Low
+                    - paragraph [ref=f7e82]: 17°
+              - generic [ref=f7e83] [cursor=pointer]:
+                - paragraph [ref=f7e84]: Wed
+                - img [ref=f7e86]
+                - paragraph [ref=f7e88]: Rainy
+                - generic [ref=f7e89]:
+                  - generic [ref=f7e90]:
+                    - paragraph [ref=f7e91]: High
+                    - paragraph [ref=f7e92]: 19°
+                  - generic [ref=f7e93]:
+                    - paragraph [ref=f7e94]: Low
+                    - paragraph [ref=f7e95]: 15°
+              - generic [ref=f7e96] [cursor=pointer]:
+                - paragraph [ref=f7e97]: Thu
+                - img [ref=f7e99]
+                - paragraph [ref=f7e101]: Cloudy
+                - generic [ref=f7e102]:
+                  - generic [ref=f7e103]:
+                    - paragraph [ref=f7e104]: High
+                    - paragraph [ref=f7e105]: 21°
+                  - generic [ref=f7e106]:
+                    - paragraph [ref=f7e107]: Low
+                    - paragraph [ref=f7e108]: 16°
+              - generic [ref=f7e109] [cursor=pointer]:
+                - paragraph [ref=f7e110]: Fri
+                - img [ref=f7e112]
+                - paragraph [ref=f7e118]: Sunny
+                - generic [ref=f7e119]:
+                  - generic [ref=f7e120]:
+                    - paragraph [ref=f7e121]: High
+                    - paragraph [ref=f7e122]: 25°
+                  - generic [ref=f7e123]:
+                    - paragraph [ref=f7e124]: Low
+                    - paragraph [ref=f7e125]: 19°
+          - generic [ref=f7e126]: "Last updated: 12:42:16 PM"
+  - alert [ref=e48]
