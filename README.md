@@ -2,6 +2,16 @@
 
 AI-powered React component generator with live preview.
 
+## Disclaimer
+
+This repository is coursework. It was built as part of a task from the Anthropic
+open courses, so the project brief and the starter material come from Anthropic,
+not from me. It is published here only as a record of my work on that exercise.
+
+For that reason it carries **no license**: no rights are granted over the
+original course material, and it is not offered for reuse. Refer to the
+Anthropic course materials for their own terms.
+
 ## Prerequisites
 
 - Node.js 18+
